@@ -3,16 +3,15 @@
 #include <time.h>
 
 /**
- * main - A program that prints the alphabet in lowercase followed by a new line
+ * main - A program that prints the alphabet in lowercase then new line
  * Return: 0 (Success)
  */
 
 int main(void)
 
 {
-
-
 	char low, e, q;
+
 
 	e = 'e';
 	q = 'q';
