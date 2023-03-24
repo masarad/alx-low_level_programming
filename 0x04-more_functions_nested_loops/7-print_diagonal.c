@@ -2,7 +2,7 @@
 
 /**
  * print_diagonal - Draws a diagonal line on the terminal
- * @n: The number of times to ptint diagonal lines
+ * @n: The number of times to print diagonal lines
  * Return: empty
  */
 
