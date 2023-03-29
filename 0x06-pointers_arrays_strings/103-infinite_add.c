@@ -29,14 +29,14 @@ void rev_string(char *n)
 
 /**
  * infinite_add - add 2 numbers together
- * @n1: text representation of first number to add
- * @n2: text representation of second number to add
+ * @n1: text representation of 1st number to add
+ * @n2: text representation of 2nd number to add
  * @r: pointer to buffer
  * @size_r: buffer size
  * Return: pointer to calling function
  */
 
-char *infinite_add(char *n1, char *n2, int size_r)
+char *infinite_add(char *n1, char *n2, char *r, int size_r)
 
 {
 	int overflow = 0, i = 0, j = 0, digits = 0;
