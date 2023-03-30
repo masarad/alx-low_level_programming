@@ -1,14 +1,9 @@
-#include <time.h>
 #include <stdio.h>
-#include "main.h"
-
-/**
- * main - Add two numbers
- * Return: 0
- */
 
 int main(void)
+
 {
+
 	int n;
 	int a[5];
 	int *p;
@@ -16,8 +11,9 @@ int main(void)
 	a[2] = 1024;
 	p = &n;
 
+/* adding any of these lines makes code to print "a[2] = 98" at output */
 *(p + 5) = 98;
 
-printf("a[2] = 98");
+printf("a[2] = %d\n", a[2]);
 return (0);
 }
