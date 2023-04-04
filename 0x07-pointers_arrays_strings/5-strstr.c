@@ -1,9 +1,10 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
  * _strstr - Entry point
- * @haystack - Input
- * @needle - Input
+ * @haystack: Input
+ * @needle: Input
  * Return: Always 0 (Success)
  */
 
@@ -24,5 +25,5 @@ char *_strstr(char *haystack, char *needle)
 		if (*p == '\0')
 			return (haystack);
 	}
-	return (0);
+	return (NULL);
 }
